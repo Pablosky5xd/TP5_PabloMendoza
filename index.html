@@ -15,11 +15,9 @@
         <h1>Registro</h1>
         <form id="formulario">
 
-            <!-- Campo de Nombre -->
             <label for="nombre">Nombre completo:</label>
             <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
 
-            <!-- Selección de País -->
             <label for="pais">País:</label>
             <select id="pais" name="pais" required>
                 <option value="">Selecciona un país</option>
@@ -29,7 +27,6 @@
                 <option value="Colombia">Colombia</option>
             </select>
 
-            <!-- Sexo -->
             <p>Sexo:</p>
             <label>
                 <input type="radio" name="genero" value="masculino" required> Masculino
@@ -38,7 +35,6 @@
                 <input type="radio" name="genero" value="femenino" required> Femenino
             </label>
 
-            <!-- Área de desempeño -->
             <p>Área de desempeño:</p>
             <label>
                 <input type="checkbox" name="intereses" value="tecnologia"> Tecnología
@@ -50,13 +46,11 @@
                 <input type="checkbox" name="intereses" value="musica"> Música
             </label>
 
-            <!-- Botones -->
             <button type="submit">Enviar</button>
             <button type="button" id="resetear">Limpiar</button>
 
         </form>
         
-        <!-- Resultado -->
         <div id="resultado"></div>
     </div>
     
